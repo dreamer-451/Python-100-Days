@@ -59,7 +59,7 @@ Python在以下领域都有用武之地。
 
 ### Day01~15 - Python语言基础
 
-#### Day01 - [初识Python](./Day01-15/01.初识Python.md)
+#### Day01 - [初识Python](Day01-15/01.初识Python.md)
 
 - Python简介 - Python的历史 / Python的优缺点 / Python的应用领域
 - 搭建编程环境 - Windows环境 / Linux环境 / MacOS环境
@@ -623,7 +623,7 @@ Python在以下领域都有用武之地。
      > - **客户合作** 高于 合同谈判
      > - **响应变化** 高于 遵循计划
 
-     ![](./res/agile-scrum-sprint-cycle.png)
+     ![](res/agile-scrum-sprint-cycle.png)
 
      > 角色：产品所有者（决定做什么，能对需求拍板的人）、团队负责人（解决各种问题，专注如何更好的工作，屏蔽外部对开发团队的影响）、开发团队（项目执行人员，具体指开发人员和测试人员）。
 
@@ -639,11 +639,11 @@ Python在以下领域都有用武之地。
 
      > 说明：感谢**付祥英**女士帮助我绘制了下面这张精美的公司组织架构图。
 
-     ![company_architecture](./res/company_architecture.png)
+     ![company_architecture](res/company_architecture.png)
 
    - 编程规范和代码审查（`flake8`、`pylint`）
 
-     ![](./res/pylint.png)
+     ![](res/pylint.png)
 
    - Python中的一些“惯例”（请参考[《Python惯例-如何编写Pythonic的代码》](Python惯例.md)）
 
@@ -677,7 +677,7 @@ Python在以下领域都有用武之地。
    - 模块划分：画思维导图（XMind），每个模块是一个枝节点，每个具体的功能是一个叶节点（用动词表述），需要确保每个叶节点无法再生出新节点，确定每个叶子节点的重要性、优先级和工作量。
    - 任务分配：由项目负责人根据上面的指标为每个团队成员分配任务。
 
-   ![](./res/requirements_by_xmind.png)
+   ![](res/requirements_by_xmind.png)
 
 3. 制定项目进度表（每日更新）
 
@@ -692,7 +692,7 @@ Python在以下领域都有用武之地。
 
   - UML（统一建模语言）的类图
 
-    ![uml](./res/uml-class-diagram.png)
+    ![uml](res/uml-class-diagram.png)
 
   - 通过模型创建表（正向工程），例如在Django项目中可以通过下面的命令创建二维表。
 
@@ -703,7 +703,7 @@ Python在以下领域都有用武之地。
 
   - 使用PowerDesigner绘制物理模型图。
 
-    ![](./res/power-designer-pdm.png)
+    ![](res/power-designer-pdm.png)
 
   - 通过数据表创建模型（反向工程），例如在Django项目中可以通过下面的命令生成模型。
 

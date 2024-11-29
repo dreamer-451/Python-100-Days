@@ -110,7 +110,7 @@ hexo s -p 8000 -o
 
 至此，我们已经可以看到Hexo在没有配置也没有加入自己的Markdown文件下生成的首页，如下图所示。
 
-![](./res/hexo-default-index.png)
+![](res/hexo-default-index.png)
 
 接下来我们修改博客的配置文件。
 
@@ -289,7 +289,7 @@ hexo server -p 8000 -o
 
 1. 根据自己的用户名创建一个仓库，仓库**一定**要取名为“用户名.github.io”。例如：我在GitHub上的用户名是jackfrued，那么我的托管博客项目的仓库一定要命名为jackfrued.github.io。
 
-   ![](./res/create-new-repo.png)
+   ![](res/create-new-repo.png)
 
 2. 修改博客项目的配置文件`_config.yml`，配置使用GitHub来部署该博客项目。
 
@@ -333,13 +333,13 @@ hexo server -p 8000 -o
 
 虽然我们已经通过GitHub提供的域名访问到了自己的博客，但是如果我们不愿意“寄人篱下”，我们在利用GitHub Pages提供的托管服务同时，也可以将博客绑定到自己专属的域名。如果暂时还没有购买域名，我们可以在提供域名购买服务的网站（如：[万网](<https://www.hichina.com/>)、[GoDaddy](<https://www.godaddy.com/>)）上进行购买。
 
-![](./res/wanwang.png)
+![](res/wanwang.png)
 
 > 说明：目前国内对域名的管理日趋严格，在购买域名时需要填写一大堆的个人信息，进行实名认证后才能获得域名，这一点相信大家能够理解。
 
 比如说，我现在已经购买了一个名为“jackfrued.top”的域名，如何让它跟“jackfrued.github.io”这个域名做一个绑定呢，我们可以利用[阿里云控制台](<https://dns.console.aliyun.com/>)或者[DNSPod](<https://www.dnspod.cn/>)来做一个域名解析服务。在域名解析平台登录成功后，可以添加或选择自己的域名来配置域名解析。点击“添加记录”按钮，创建一个类型为CNAME的域名解析，CNAME类型的解析代表将一个域名解析到另一个域名，如下图所示。
 
-![](./res/dns-configuration.png)
+![](res/dns-configuration.png)
 
 完成这一步后，还不能马上通过自己的域名访问到博客项目，最后需要在博客项目的`source`目录下添加一个名为CNAME的文件（请注意这个文件的名字是全大写字母的）。
 
